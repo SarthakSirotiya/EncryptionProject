@@ -90,17 +90,15 @@ public class EncryptionProject extends GBFrame {
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
-	public String advancedEncryption(String s) //this method uses Base64 encryption to encrypt the user's string
+	public String advancedEncryption(String s)
 	{
 		StringBuilder e = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the encrypted string and its string value will be returned
-		//TODO: implement Base64 encryption
 		return e.toString(); //returns the String value of the StringBuilder e
 	}
 
-	public String advancedDecryption(String s) //this method uses Base64 decryption to decrypt the user's string
+	public String advancedDecryption(String s)
 	{
 		StringBuilder d = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the decrypted string and its string value will be returned
-		//TODO: implement Base64 decryption
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
