@@ -68,6 +68,7 @@ public class EncryptionProject extends GBFrame {
 		}
 	}
 
+	//basic encryption methods (using caesar cipher with a shift of 5)
 	public String basicEncryption(String s) //this method uses a caesar cipher to shift letters 5 to the right (very secure)
 	{
 		StringBuilder e = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the encrypted string and its string value will be returned
@@ -90,14 +91,19 @@ public class EncryptionProject extends GBFrame {
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
-	public String advancedEncryption(String s) //this method uses Base64 encryption to encrypt the user's string
+	//advanced encryption methods (using asymmetric key encryption)
+	public String advancedEncryption(String s) //this method uses asymmetric key encryption to encrypt the user's String
 	{
 		StringBuilder e = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the encrypted string and its string value will be returned
 		//TODO: implement Base64 encryption
+		for(int i = 0; i < s.length(); i++) //for each letter in the user's input String
+		{
+
+		}
 		return e.toString(); //returns the String value of the StringBuilder e
 	}
 
-	public String advancedDecryption(String s) //this method uses Base64 decryption to decrypt the user's string
+	public String advancedDecryption(String s) //this method uses asymmetric key decryption to decrypt the user's String
 	{
 		StringBuilder d = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the decrypted string and its string value will be returned
 		//TODO: implement Base64 decryption

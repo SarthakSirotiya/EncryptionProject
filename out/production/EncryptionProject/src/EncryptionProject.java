@@ -31,6 +31,7 @@ public class EncryptionProject extends GBFrame {
 		//adds Radio Buttons to the 'types' ButtonGroup (this prevents them from both being selected simultaneously)
 		types.add(basicRB); //adds the 'basic' Radio Button to the 'types' ButtonGroup
 		types.add(advancedRB); //adds the 'advanced' Radio Button to the 'types' ButtonGroup
+		output.setFont(new Font(Font.SANS_SERIF,Font.PLAIN,80));
 	}
 
 	public void buttonClicked(JButton b) //when a button is clicked...
@@ -90,15 +91,17 @@ public class EncryptionProject extends GBFrame {
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
-	public String advancedEncryption(String s)
+	public String advancedEncryption(String s) //this method uses Base64 encryption to encrypt the user's string
 	{
 		StringBuilder e = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the encrypted string and its string value will be returned
+		//TODO: implement Base64 encryption
 		return e.toString(); //returns the String value of the StringBuilder e
 	}
 
-	public String advancedDecryption(String s)
+	public String advancedDecryption(String s) //this method uses Base64 decryption to decrypt the user's string
 	{
 		StringBuilder d = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the decrypted string and its string value will be returned
+		//TODO: implement Base64 decryption
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
@@ -106,6 +109,7 @@ public class EncryptionProject extends GBFrame {
     {
         JFrame frm = new EncryptionProject(); //constructs a new JFrame
 	    frm.setSize(500,600); //sets the size of the JFrame to 500x600
+	    frm.setFont(new Font(Font.SANS_SERIF,Font.PLAIN, 80));
 	    frm.setTitle("Encryption Time!"); //sets an informative title
 	    frm.setIconImage(new ImageIcon("icon.png").getImage()); //a fun icon image to keep the user engaged
         frm.setVisible(true); //makes the frame visible to the user
