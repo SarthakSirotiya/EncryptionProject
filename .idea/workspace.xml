@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e2eb43-2ecb-45eb-b464-59a71f7b6186" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/src/EncryptionProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/src/EncryptionProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EncryptionProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptionProject.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +24,13 @@
       <file leaf-file-name="EncryptionProject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-901">
               <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+=======
+            <state relative-caret-position="323">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,11 +157,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+=======
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.329582" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -170,12 +183,32 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32979852" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31832796" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.329582" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36463225" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -194,8 +227,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1938">
           <caret line="114" column="131" lean-forward="true" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
+=======
+        <state relative-caret-position="1680">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -204,8 +242,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1785">
           <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
+=======
+        <state relative-caret-position="1972">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1504">
+          <caret line="94" column="180" lean-forward="true" selection-start-line="94" selection-start-column="180" selection-end-line="94" selection-end-column="180" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicEncryptionGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/BasicEncryptionGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.form" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/awt/Color.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/awt/Frame.java" />
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -249,8 +327,13 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/awt/Frame.java" />
     <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-901">
           <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+=======
+        <state relative-caret-position="323">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+>>>>>>> 552102016276095c5ca07061bee2a400f5265319
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
