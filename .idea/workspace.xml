@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69e2eb43-2ecb-45eb-b464-59a71f7b6186" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EncryptionProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EncryptionProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/EncryptionProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/EncryptionProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EncryptionProject/src/EncryptionProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptionProject/src/EncryptionProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EncryptionProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptionProject.java" afterDir="false" />
     </list>
@@ -27,8 +20,8 @@
       <file leaf-file-name="EncryptionProject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
+            <state relative-caret-position="-901">
+              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +52,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="797" />
+    <option name="x" value="795" />
     <option name="width" value="2415" />
     <option name="height" value="1815" />
   </component>
@@ -67,34 +60,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EncryptionProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EncryptionProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EncryptionProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EncryptionProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_172/jre/lib/ext" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,8 +148,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -187,7 +159,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31832796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31786942" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32979852" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -220,6 +192,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="131" lean-forward="true" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
@@ -257,8 +249,8 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/awt/Frame.java" />
     <entry file="file://$PROJECT_DIR$/src/EncryptionProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
+        <state relative-caret-position="-901">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

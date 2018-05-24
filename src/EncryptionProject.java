@@ -12,7 +12,6 @@ Allow the user to both encrypt and decrypt the information. Allow the user to ou
 //import statements because there's no reason to re-invent the wheel
 import BreezySwing.*; //imports industry-standard GUI software
 import javax.swing.*; //imports Swing because it's necessary for BreezySwing
-import java.awt.*;
 
 
 public class EncryptionProject extends GBFrame {
@@ -91,22 +90,32 @@ public class EncryptionProject extends GBFrame {
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
-	//advanced encryption methods (using asymmetric key encryption)
-	public String advancedEncryption(String s) //this method uses asymmetric key encryption to encrypt the user's String
+	//advanced encryption methods (using XOR encryption)
+	public String advancedEncryption(String s) //this method uses XOR encryption to encrypt the user's String
 	{
 		StringBuilder e = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the encrypted string and its string value will be returned
-		//TODO: implement Base64 encryption
+		String key = JOptionPane.showInputDialog("Please enter the key to encrypt with."); //prompts the user for a key
 		for(int i = 0; i < s.length(); i++) //for each letter in the user's input String
 		{
-
+			int encryptedInt = (s.charAt(i) ^ key.charAt(i%key.length()))+65; //uses the XOR operation on the int values of each char, then adds 65 to fit the ascii char values
+			char encryptedChar = (char) encryptedInt; //casts the encryptedInt to a char to add to StringBuilder
+			e.append(encryptedChar); //adds the encrypted character to the StringBuilder
 		}
+		System.out.println(e.toString());
 		return e.toString(); //returns the String value of the StringBuilder e
 	}
 
-	public String advancedDecryption(String s) //this method uses asymmetric key decryption to decrypt the user's String
+	public String advancedDecryption(String s) //this method uses XOR decryption to decrypt the user's String
 	{
 		StringBuilder d = new StringBuilder(); //StringBuilder is efficient for string manipulation; this variable stores the decrypted string and its string value will be returned
-		//TODO: implement Base64 decryption
+		String key = JOptionPane.showInputDialog("Please enter the key to decrypt with.");
+		for(int i = 0; i < s.length(); i++) //for each letter in the user's input String
+		{
+			int decryptedInt = ((s.charAt(i)-65) ^ key.charAt(i%key.length())); //TODO: calculations are incorrect, remember to debug
+			char decryptedChar = (char) decryptedInt;
+			d.append(decryptedChar);
+		}
+		System.out.println(d.toString());
 		return d.toString(); //returns the String value of the StringBuilder d
 	}
 
